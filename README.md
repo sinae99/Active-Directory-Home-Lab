@@ -3,6 +3,17 @@ Setup a basic AD on virtual home network
 
 The main aim of this project is to form a domain and join our guest PC into that domain. after setting up, we create user accounts using a PowerShell script. in the end, we do a bruteforce attack on the domain to check for any obtainable passwords. 
 
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+
+
+
 assets :
 
 1 - Windows Server 2019 (AD DS)
