@@ -55,8 +55,8 @@ we must do these steps :
 * Disable the IE Enhanced Security Config setting (to allow server to browse internet from domain controller)
 
   
-I wont include screenshots of these steps because you probably already know them
-at the end the our server manager is going to be like this :
+I wont include screenshots of these steps because you probably already know them.
+at the end our server manager is going to be like this :
 
 ![AD Installed Roles](https://github.com/user-attachments/assets/cf085b50-b4b3-447e-9093-fbcccaccdd90)
 
