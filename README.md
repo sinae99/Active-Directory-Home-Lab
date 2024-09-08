@@ -18,4 +18,11 @@ The main aim of this project is to form a domain and join our guest PC into that
 
 ## Creating Users
 
-After creating our domain, the next step is to add users. I used a PowerShell script and a text file with the usernames. The text file is called [names.txt](names.txt), and the PowerShell script is named [CreateUser.ps](CreateUser.ps). 
+After creating our domain, the next step is to add users via a PowerShell script and a text file with the usernames. The text file is called [names.txt](names.txt), and the PowerShell script is named [CreateUser.ps](CreateUser.ps). 
+
+The `CreateUser.ps` script functions:
+
+1. **Getting Names**: It begins by fetching about 1000 names from the `names.txt` file.
+2. **Sets Const Password**: All users are assigned the password "Password1".
+3. **Creates Organizational Unit**: The script creates an Active Directory Organizational Unit (OU) named `_USERS`.
+4. **Creates and Enables Users**: at the end it uses a foreach loop to create the users in `_USERS` and ensures they are enabled.
