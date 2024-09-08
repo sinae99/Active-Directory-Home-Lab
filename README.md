@@ -47,9 +47,9 @@ lets try "ipconfig" to see what we have done so far
 
 after configuring our machines, next step is the installation of Active Directory and other roles and features on Windows Server 2019.
 
--AD DS
--RAS / NAT
--DHCP
+* AD DS
+* RAS / NAT
+* DHCP
 
 
 
