@@ -40,6 +40,8 @@ Now we will be setting up the IP addressing for our INTERNAL adapter :
 
 lets try "ipconfig" to see what we have done so far
 
+[ipconfig](ipconfig.png)
+
 
 
 ## Creating Users
