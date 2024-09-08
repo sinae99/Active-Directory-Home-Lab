@@ -32,7 +32,10 @@ Now we will be setting up the IP addressing for our INTERNAL adapter :
     Subnet mask: 255.255.255.0
     Default gateway: . . .
     Preferred DNS server: 127.0.0.1
-    
+
+lets try "ipconfig" to see what we have done so far
+
+
 
 ## Setting up IP addressing
 
