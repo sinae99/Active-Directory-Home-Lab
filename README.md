@@ -45,13 +45,14 @@ lets try "ipconfig" to see what we have done so far
 
 ## Installing AD
 
-after configuring our machines, the next is the installation of Active Directory and other roles and features on Windows Server 2019.
+after configuring our machines, the next step is the installation of Active Directory and other roles and features on Windows Server 2019.
 we must do these steps :
 
 * Install AD DS
-* add server to domain controller
+* Promote server to domain controller
 * Configure RAS / NAT (to allow VM to access internet through domain)
 * Configure DHCP
+* Disable the IE Enhanced Security Config setting (to allow server to browse internet from domain controller)
 
 
 ## Creating Users
