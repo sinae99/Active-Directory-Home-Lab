@@ -43,15 +43,15 @@ lets try "ipconfig" to see what we have done so far
 
 ![ipconfig](https://github.com/user-attachments/assets/4b8e5db7-b488-43f6-8f32-51026559ac53)
 
-## Installing Actice Directory
+## Installing AD
 
-after configuring our machines, next step is the installation of Active Directory and other roles and features on Windows Server 2019.
+after configuring our machines, the next is the installation of Active Directory and other roles and features on Windows Server 2019.
+we must do these steps :
 
-* AD DS
-* RAS / NAT
-* DHCP
-
-
+* Install AD DS
+* add server to domain controller
+* Configure RAS / NAT (to allow VM to access internet through domain)
+* Configure DHCP
 
 
 ## Creating Users
