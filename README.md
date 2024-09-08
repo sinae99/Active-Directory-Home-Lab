@@ -54,6 +54,10 @@ we must do these steps :
 * Configure DHCP
 * Disable the IE Enhanced Security Config setting (to allow server to browse internet from domain controller)
 
+at the end the our server manager is going to be like this :
+
+![AD Installed Roles](https://github.com/user-attachments/assets/cf085b50-b4b3-447e-9093-fbcccaccdd90)
+
 
 ## Creating Users
 
@@ -67,10 +71,10 @@ The `CreateUser.ps` script functions:
 4. **Create and Enable Users** : at the end it uses a foreach loop to create the users in `_USERS` and ensures they are enabled.
 
 this script get a name like Sina Ebrahimi and grab first letter of first name and concat that to family name and use this string as username
+
 Sina Ebrahimi is going to be sebrahimi as username and Password1 as password
 
-
-
+![Creating Users](https://github.com/user-attachments/assets/f2ed9d93-c5cb-4317-a4e9-49fd474330b2)
 
 
 
