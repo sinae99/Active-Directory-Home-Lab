@@ -26,6 +26,11 @@ Internal Network (_INTERNAL_): This adapter allows communication between Windows
 
 the INTERNET uses the default NAT configuration and INTERNAL will get its IP address manually
 
+
+## Setting up IP addressing
+
+After identifying the internet and internal adapters (the one with an IP address in your host ip range is the internet adapter), we rename them to INTERNET and INTERNAL.
+
 Now we will be setting up the IP addressing for our INTERNAL adapter :
 
     IP address: 172.16.0.1
@@ -35,11 +40,6 @@ Now we will be setting up the IP addressing for our INTERNAL adapter :
 
 lets try "ipconfig" to see what we have done so far
 
-
-
-## Setting up IP addressing
-
-After identifying the internet and internal adapters (the one with an IP address in your host ip range is the internet adapter), we rename them to INTERNET and INTERNAL.
 
 
 ## Creating Users
