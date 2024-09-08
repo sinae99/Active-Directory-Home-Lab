@@ -15,7 +15,7 @@ The main aim of this project is to form a domain and join our guest PC into that
 
 4 - Windows 11 (HOST Machine + SIEM)
 
-## Creating DC
+## Creating Network
 
 After installing VMs, we will set up Windows Server 2019 to act as our domain controller. To do this, the server needs two network adapters:
 
@@ -25,6 +25,18 @@ Internal Network (_INTERNAL_): This adapter allows communication between Windows
 
 
 the INTERNET uses the default NAT configuration and INTERNAL will get its IP address manually
+
+Now we will be setting up the IP addressing for our INTERNAL adapter :
+
+    IP address: 172.16.0.1
+    Subnet mask: 255.255.255.0
+    Default gateway: . . .
+    Preferred DNS server: 127.0.0.1
+    
+
+## Setting up IP addressing
+
+After identifying the internet and internal adapters (the one with an IP address in your host ip range is the internet adapter), we rename them to INTERNET and INTERNAL.
 
 
 ## Creating Users
