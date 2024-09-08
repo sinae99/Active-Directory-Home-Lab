@@ -65,3 +65,14 @@ The `CreateUser.ps` script functions:
 2. **Set Const Password** : All users are assigned the password "Password1".
 3. **Create Organizational Unit** : The script creates an Active Directory Organizational Unit (OU) named `_USERS`.
 4. **Create and Enable Users** : at the end it uses a foreach loop to create the users in `_USERS` and ensures they are enabled.
+
+this script get a name like Sina Ebrahimi and grab first letter of first name and concat that to family name and use this string as username
+Sina Ebrahimi is going to be sebrahimi as username and Password1 as password
+
+
+
+
+
+
+
+
