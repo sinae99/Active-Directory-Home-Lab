@@ -15,6 +15,12 @@ The main aim of this project is to form a domain and join our guest PC into that
 
 4 - Windows 11 (HOST Machine + SIEM)
 
+This is the diagram of what I want to build.
+
+Im sorry for using Paint! (I will put a Packet Tracer diagram later.)
+![Diagram](https://github.com/user-attachments/assets/4e5e8cb0-aecf-44e4-8891-bc7a310ca464)
+
+
 ## Creating Network
 
 After installing VMs, we will set up Windows Server 2019 to act as our domain controller. To do this, the server needs two network adapters:
