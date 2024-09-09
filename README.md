@@ -73,7 +73,7 @@ at the end our server manager is going to be like this :
 
 After creating our domain, the next step is to add users via a PowerShell script and a text file with the usernames. The text file is called [names.txt](names.txt), and the PowerShell script is named [CreateUser.ps](CreateUser.ps). 
 
-The `CreateUser.ps` script functions:
+The `CreateUser.ps` script explanation :
 
 1. **Get Names** : It begins by fetching about 1000 names from the `names.txt` file.
 2. **Set Const Password** : All users are assigned the password "Password1".
