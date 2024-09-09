@@ -106,7 +106,7 @@ and after all this is the final result :
 
 ![welcome to firstdomain](https://github.com/user-attachments/assets/ac7c79dd-39bb-4f81-a7f1-b58137dc6443)
 
-lets check it :
+## Final Check
 
 ![check joined user](https://github.com/user-attachments/assets/e4341eff-dce4-4293-b634-2160830a5c5f)
 
