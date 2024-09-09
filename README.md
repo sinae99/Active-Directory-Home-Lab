@@ -100,10 +100,34 @@ I am going to install Windows 10 Enterprise for this (somehow, Home Edition wont
 
 Setting > About > Rename this PC > Advanced and then change domain or workgroup
 in Computer Name/Domain Changes select member of Domain and type "firstdomain"
+im going to use acoke as user
 
 and after all this is the final result :
 
 ![welcome to firstdomain](https://github.com/user-attachments/assets/ac7c79dd-39bb-4f81-a7f1-b58137dc6443)
+
+lets check it :
+
+![check joined user](https://github.com/user-attachments/assets/e4341eff-dce4-4293-b634-2160830a5c5f)
+
+it looks like everything is fine!
+
+and for the last step lets check DHCP and Active Directory Users and Computers from our Server manager :
+
+
+![AD Users and Computers check](https://github.com/user-attachments/assets/8c1bb46e-8053-4ffa-8425-cf4e79f26453)
+
+
+![DHCP check](https://github.com/user-attachments/assets/cb1a5c70-5e04-429f-b079-346da542f85e)
+
+
+as above out windows 10 (Client10) is added to Leased Addresses and Computers.
+
+our Lab Set up is complete!
+
+
+
+
 
 
 
