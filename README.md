@@ -48,7 +48,6 @@ Now we will be setting up the IP addressing for our INTERNAL adapter :
     Preferred DNS server: 127.0.0.1
 
 lets try "ipconfig" to see what we have done so far
-[ipconfig](ipconfig.png)
 
 ![ipconfig](https://github.com/user-attachments/assets/4b8e5db7-b488-43f6-8f32-51026559ac53)
 
