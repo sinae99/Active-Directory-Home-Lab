@@ -86,7 +86,7 @@ Sina Ebrahimi is going to be sebrahimi as username and Password1 as password
 
 ![Creating Users](https://github.com/user-attachments/assets/f2ed9d93-c5cb-4317-a4e9-49fd474330b2)
 
-let chech our created domain (firstdomain) and some users :
+lets check our created domain (firstdomain) and some users :
 
 ![firstdomain](https://github.com/user-attachments/assets/b5b93de4-1e05-4d5c-aa2e-1fe3325eabc5)
 
