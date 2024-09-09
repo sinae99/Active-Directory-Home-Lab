@@ -121,7 +121,7 @@ and for the last step lets check DHCP and Active Directory Users and Computers f
 ![DHCP check](https://github.com/user-attachments/assets/cb1a5c70-5e04-429f-b079-346da542f85e)
 
 
-as above out windows 10 (Client10) is added to Leased Addresses and Computers.
+as above our windows 10 (Client10) is added to Leased Addresses and Computers.
 
 our Lab Set up is complete!
 
