@@ -18,7 +18,9 @@ The main aim of this project is to form a domain and join our guest PC into that
 This is the diagram of what I want to build.
 
 Im sorry for using Paint! (I will put a Packet Tracer diagram later.)
-![Diagram](https://github.com/user-attachments/assets/4e5e8cb0-aecf-44e4-8891-bc7a310ca464)
+
+![Diagram](https://github.com/user-attachments/assets/c9e8fa13-c4bd-4178-8700-e0b3af6cab08)
+
 
 
 ## Creating Network
