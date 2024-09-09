@@ -92,4 +92,18 @@ let chech our created domain (firstdomain) and some users :
 
 DC setup and user creation is Done !
 
+## Install Windows 10 Client
+
+After creating the domain, it’s time to install the Windows 10 client.
+
+I am going to install Windows 10 Enterprise for this (somehow, Home Edition wont work! idk why), and afterward, we need to add this PC to the domain.
+
+Setting > About > Rename this PC > Advanced and then change domain or workgroup
+in Computer Name/Domain Changes select member of Domain and type "firstdomain"
+
+and after all this is the final result :
+
+![welcome to firstdomain](https://github.com/user-attachments/assets/ac7c79dd-39bb-4f81-a7f1-b58137dc6443)
+
+
 
