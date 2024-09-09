@@ -3,6 +3,9 @@ Setup a basic AD on virtual home network
 
 ## Introduction
 
+The main goal of this project is to set up a domain and connect our guest PC to it. After configuring the network and DC, we will create user accounts using a PowerShell script. Then, we will join the client to the domain and verify that everything is working correctly.
+
+
 The main aim of this project is to form a domain and join our guest PC into that domain. after setting up, we create user accounts using a PowerShell script. in the end, we do a bruteforce attack on the domain to check for any obtainable passwords. 
 
 ## Lab Set-up and Tools
@@ -11,9 +14,7 @@ The main aim of this project is to form a domain and join our guest PC into that
 
 2 - Windows 10 (guest)
 
-3 - Ubunto (attacker)
-
-4 - Windows 11 (HOST Machine + SIEM)
+3 - Windows 11 (HOST Machine)
 
 This is the diagram of what I want to build.
 
