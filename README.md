@@ -89,7 +89,7 @@ checking our created domain (firstdomain) and some users :
 
 ![firstdomain](https://github.com/user-attachments/assets/b5b93de4-1e05-4d5c-aa2e-1fe3325eabc5)
 
-DC setup and user creation is Done !
+DC setup and user creation is Done.
 
 ## Install Windows 10 Client
 
@@ -109,7 +109,7 @@ and after all this is the final result :
 
 ![check joined user](https://github.com/user-attachments/assets/e4341eff-dce4-4293-b634-2160830a5c5f)
 
-everything is fine now
+everything is fine now.
 
 and for the last step lets check DHCP and Active Directory Users and Computers from our Server manager :
 
@@ -121,6 +121,7 @@ and for the last step lets check DHCP and Active Directory Users and Computers f
 
 
 as above our windows 10 (Client10) is added to Leased Addresses and Computers.
+
 Lab Set up is Done.
 
 
