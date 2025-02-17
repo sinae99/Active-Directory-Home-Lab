@@ -18,7 +18,6 @@ The main goal of this project is to set up a domain and connect our guest PC to 
 
 This is the diagram of what I want to build.
 
-Im sorry for using Paint! (I will put a Packet Tracer diagram later.)
 
 ![Diagram](https://github.com/user-attachments/assets/c9e8fa13-c4bd-4178-8700-e0b3af6cab08)
 
@@ -47,7 +46,7 @@ Now we will be setting up the IP addressing for our INTERNAL adapter :
     Default gateway: . . .
     Preferred DNS server: 127.0.0.1
 
-lets try "ipconfig" to see what we have done so far
+trying "ipconfig" to see what we have done so far
 
 ![ipconfig](https://github.com/user-attachments/assets/4b8e5db7-b488-43f6-8f32-51026559ac53)
 
@@ -86,7 +85,7 @@ Sina Ebrahimi is going to be sebrahimi as username and Password1 as password
 
 ![Creating Users](https://github.com/user-attachments/assets/f2ed9d93-c5cb-4317-a4e9-49fd474330b2)
 
-lets check our created domain (firstdomain) and some users :
+checking our created domain (firstdomain) and some users :
 
 ![firstdomain](https://github.com/user-attachments/assets/b5b93de4-1e05-4d5c-aa2e-1fe3325eabc5)
 
