@@ -109,7 +109,7 @@ and after all this is the final result :
 
 ![check joined user](https://github.com/user-attachments/assets/e4341eff-dce4-4293-b634-2160830a5c5f)
 
-it looks like everything is fine!
+everything is fine now
 
 and for the last step lets check DHCP and Active Directory Users and Computers from our Server manager :
 
@@ -121,8 +121,7 @@ and for the last step lets check DHCP and Active Directory Users and Computers f
 
 
 as above our windows 10 (Client10) is added to Leased Addresses and Computers.
-
-our Lab Set up is complete!
+Lab Set up is Done.
 
 
 
