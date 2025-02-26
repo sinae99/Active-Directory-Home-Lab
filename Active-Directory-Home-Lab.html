@@ -39,21 +39,30 @@
     <div class="markdown-content" id="readme-content">Loading README...</div>
 
     <script>
-        // GitHub raw link for the README file
-        const readmeUrl = "https://raw.githubusercontent.com/sinae99/Active-Directory-Home-Lab/main/README.md";
+        // GitHub API URL for fetching README content
+        const repoOwner = "sinae99";
+        const repoName = "Active-Directory-Home-Lab";
+        const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/readme`;
 
-        // Fetch the README file and render it
-        fetch(readmeUrl)
-            .then(response => response.text()) // Get the raw text
-            .then(markdown => {
-                // Convert markdown to HTML
-                const htmlContent = marked(markdown);
-                document.getElementById("readme-content").innerHTML = htmlContent;
-            })
-            .catch(error => {
-                console.error("Error fetching README:", error);
-                document.getElementById("readme-content").textContent = "Sorry, we couldn't fetch the README at this time.";
-            });
+        // Fetch the README file from GitHub API
+        fetch(apiUrl, {
+            headers: { Accept: "application/vnd.github.v3.raw" }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("Failed to fetch README");
+            }
+            return response.text(); // Get raw markdown
+        })
+        .then(markdown => {
+            // Convert markdown to HTML
+            const htmlContent = marked(markdown);
+            document.getElementById("readme-content").innerHTML = htmlContent;
+        })
+        .catch(error => {
+            console.error("Error fetching README:", error);
+            document.getElementById("readme-content").textContent = "Sorry, we couldn't fetch the README at this time.";
+        });
     </script>
 
 </body>
