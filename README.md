@@ -3,7 +3,7 @@ Setup a basic AD on virtual home network
 
 ## Introduction
 
-The main goal of this project is to set up a domain and connect our guest PC to it. After configuring the network and DC, we will create user accounts. Then, we will join the client to the domain and verify that everything is working correctly.
+The main goal of this project is to set up a domain and connect a guest PC to it. After configuring the network and DC, we will create user accounts. Then, we will join the client to the domain and verify that everything is working correctly.
 
 
 
@@ -62,7 +62,7 @@ we must do these steps :
 * Disable the IE Enhanced Security Config setting (to allow server to browse internet from domain controller)
 
   
-I wont include screenshots of these steps because you probably already know them.
+after all installations 
 at the end our server manager is going to be like this :
 
 ![AD Installed Roles](https://github.com/user-attachments/assets/cf085b50-b4b3-447e-9093-fbcccaccdd90)
